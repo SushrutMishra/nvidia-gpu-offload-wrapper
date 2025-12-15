@@ -1,0 +1,124 @@
+# =============================
+# Linux / GNU Utilities
+# =============================
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+*~
+
+# =============================
+# Bash / Shell Artifacts
+# =============================
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+
+# Shell debug / trace outputs
+trace.log
+xtrace.log
+
+# =============================
+# Editor & IDE Files
+# =============================
+# VS Code
+.vscode/
+
+# Vim
+.vim/
+*.vim
+
+# JetBrains
+.idea/
+
+# Emacs
+*~
+\#*\#
+.emacs.desktop
+.emacs.desktop.lock
+
+# =============================
+# OS / Filesystem Noise
+# =============================
+.DS_Store
+Thumbs.db
+Icon?
+
+# =============================
+# Build / Generated Files
+# =============================
+/build/
+/dist/
+/out/
+
+# Temporary generated desktop entries (runtime/debug)
+*.desktop.tmp
+*.desktop.bak
+
+# =============================
+# Backup Directories (Script-Generated)
+# =============================
+# Timestamped backups created by the wrapper script
+.backup-*/
+backup-*/
+
+# =============================
+# User-Specific Runtime Data
+# =============================
+.cache/
+.cache/**
+.local/
+.local/**
+
+# =============================
+# Logs from GPU / Mesa Debugging
+# =============================
+mesa_debug.log
+nouveau.log
+dri_prime.log
+
+# =============================
+# Security / Secrets (Never Commit)
+# =============================
+.env
+.env.*
+secrets.env
+*.key
+*.pem
+*.crt
+
+# =============================
+# Packaging / Release Artifacts
+# =============================
+*.tar.gz
+*.zip
+*.xz
+*.deb
+*.rpm
+
+# =============================
+# Test / Experiment Files
+# =============================
+/test-output/
+/tests/tmp/
+experiments/
+
+# =============================
+# Git Safety
+# =============================
+# Ignore accidental root-owned files
+root-owned-*
+
+# Ignore accidental chmod +x editor temp files
+*.save
+
+# =============================
+# Explicitly KEEP These
+# =============================
+!.gitignore
+!README.md
+!*.sh
