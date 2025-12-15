@@ -30,14 +30,14 @@ No system files are modified.
 
 ## Key Features
 
-* ✅ Secure Boot compatible
-* ✅ No NVIDIA proprietary drivers required
-* ✅ XDG-spec compliant (`/usr/share`, `~/.local/share`)
-* ✅ Automatic OpenGL **and** Vulkan handling
-* ✅ Wayland-aware (skips Wayland-only apps)
-* ✅ Safe backup & restore
-* ✅ Dry-run, audit, JSON output
-* ✅ One-command uninstall
+* Secure Boot compatible
+* No NVIDIA proprietary drivers required
+* XDG-spec compliant (`/usr/share`, `~/.local/share`)
+* Automatic OpenGL **and** Vulkan handling
+* Wayland-aware (skips Wayland-only apps)
+* Safe backup & restore
+* Dry-run, audit, JSON output
+* One-command uninstall
 
 ---
 
