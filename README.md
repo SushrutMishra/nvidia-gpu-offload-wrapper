@@ -60,11 +60,21 @@ sudo apt install mesa-utils vulkan-tools desktop-file-utils
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/SushrutMishra/nvidia-gpu-offload-wrapper.git
+cd nvidia-gpu-offload-wrapper
 chmod +x wrap-nvidia-complete.sh
 ```
 
+(Optional) Move the script to a directory in your `$PATH` for global use:
+
+```bash
+sudo mv wrap-nvidia-complete.sh /usr/local/bin/nvidia-offload
+```
+
+Then you can run it from anywhere:
+
+```bash
+nvidia-offload <application>
 ---
 
 ## Basic Usage
