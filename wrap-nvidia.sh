@@ -6,13 +6,6 @@
 # Spec-compliant, production-ready wrapper with XDG support, auditing modes,
 # and safety/hardening improvements (locking, atomic writes, validation).
 #
-# Applied fixes requested:
-#  - NotShowIn handling made spec-perfect (compares components, supports ':' and ';')
-#  - extract_target_bin() fixed to properly handle leading "env" token and multiple VAR= assignments
-#  - --list --json emits valid JSON with no dangling commas (uses explicit counter)
-#  - Steam detection: skip wrapping Steam (Steam manages per-game GPU settings)
-#  - Backups include a metadata file with X-NVIDIA-Backup-Version=1.0 for future-proof restores
-#
 # Limitations:
 # - Wayland-native apps may not benefit from DRI_PRIME
 # - Exec entries using "sh -c" or containing quoted arguments are skipped
